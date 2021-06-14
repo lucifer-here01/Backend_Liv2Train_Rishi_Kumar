@@ -1,4 +1,4 @@
-####################################################################################################
+#############################################################################################
 
 
                                        Liv2Train - Backend 
@@ -8,7 +8,7 @@
   
                            ## Project Setup for Run ##
  
- Required:
+** Required System:
  
       ==>> JAVA JRE [JAVASE ]- 1.8 versi
       
@@ -26,25 +26,24 @@
             
             
             
- ==>>  Just Simple Add this Project to any IDE's ie.= Eclipse,IntelieJ,NetBean etc 
+  ** Just Simple Add this Project to any IDE's ie.= Eclipse,IntelieJ,NetBean etc 
        And Run as Spring Boot Appliation.
        
        
-                ***************************************************************     
+            ***************************************************************     
                    
-                   
- ==>>  DataBase Congfing:        
+      ==>> Change DataBase related Config in the Application.properties file in the project .              
+              
+**   DataBase Congfing:        
  
- Change DataBase related Config in the Application.properties file in the project .
- 
-         Required Changes :
+**   Required Changes :
          
       >>--   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver=    
       >>--   spring.datasource.url=
       >>--   spring.datasource.username=
       >>--   spring.datasource.password=
       
-==>> Hibernate Config :
+**   Hibernate Config :
 
 
        >>--  Change the Dialect of Which Database Used for the Project and Select the Same version Dialect 
@@ -55,7 +54,7 @@
          
          
     
-#########################################################################################################
+#############################################################################################
  
   
             
